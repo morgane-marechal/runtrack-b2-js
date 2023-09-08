@@ -16,7 +16,10 @@ const buttons = document.getElementsByTagName("button");
 const buttonPressed = e => {
   console.log(e.target.id);  
   let numbId=e.target.id
-  newGame.placeMove(numbId, "X");
+  if(numbId!="play"){
+    newGame.placeMove(numbId, "X");
+
+  }
 }
 
 for (let button of buttons) {

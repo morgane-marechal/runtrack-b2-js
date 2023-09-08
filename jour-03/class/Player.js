@@ -1,7 +1,5 @@
 export default class Player {
 
-    // symbol=null;
-    // isCurrentPlayer=null;
 
     constructor(symbol, isCurrentPlayer) {
         this.symbol=symbol;
@@ -9,9 +7,7 @@ export default class Player {
 
     }
 
-    // exemple(){
-    //     return console.log('cest un exemple');
-    // }
+
 }
 
 
